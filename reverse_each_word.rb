@@ -1,6 +1,6 @@
 def word_reverse(word)
   final = ""
-  ii = word.length 
+  ii = word.length - 1
   while(ii >= 0 )
     final += word[ii]
     ii -= 1
