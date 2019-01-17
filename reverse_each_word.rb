@@ -3,6 +3,7 @@ def word_reverse(word)
   ii = word.length 
   while(ii >= 0 )
     final += word[ii]
+    ii -= 1
   end
   return final 
 end
@@ -12,5 +13,4 @@ def reverse_each_word(str)
     word_reverse(word)
   end
   return arr.join(" ")
-  
 end
