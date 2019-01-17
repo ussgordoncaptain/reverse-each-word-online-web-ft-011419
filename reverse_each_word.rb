@@ -2,7 +2,7 @@ def word_reverse(word)
   final = ""
   ii = word.length 
   while(ii >= 0 )
-    final += word(ii)
+    final += word[ii]
   end
   return final 
 end
