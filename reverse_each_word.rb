@@ -1,2 +1,4 @@
-def word_reverse
+def word_reverse(word)
+  final = ""
+  ii = word.length 
   
